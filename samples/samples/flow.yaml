@@ -1,0 +1,21 @@
+appId: com.app.nobrokerhood
+---
+launchApp
+- tapOn:
+    id: "com.app.nobrokerhood:id/imageView"
+    index: 0
+- tapOn:
+    id: "com.app.nobrokerhood:id/imageView"
+    index: 0
+- tapOn:
+    id: "com.app.nobrokerhood:id/profile_image_view"
+    index: 0
+- tapOn:
+    id: "android:id/input_method_nav_back"
+- tapOn:
+    id: "com.app.nobrokerhood:id/invite_text_view"
+- tapOn:
+    id: "com.app.nobrokerhood:id/invite_text_view"
+- assertVisible:
+    id: "com.app.nobrokerhood:id/linearLayoutShare"
+    
